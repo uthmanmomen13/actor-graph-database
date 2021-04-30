@@ -38,10 +38,10 @@ git pull source master
 ![Alt text](/images/im2.png)
 
 ---
-### **get_actor_id**
+### `get_actor_id`
 #### In order to get the movies an actor is in we first need the actor's tmdb id. You should make use of <code> tmdb.Search()</code>. 
 ---
-### **get_list_of_movies**
+### `get_list_of_movies`
 #### Now that we have the actor Id we can make a search request for <code> combined-credits</code> of the actor. This will return only movie data. One problem is that a lot of other data is still returned so you will need to traverse through the large response and pick out the movie titles only. 
 
 ---
